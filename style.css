@@ -78,6 +78,70 @@ nav ul li a:hover::after {
     color: #008000;
 }
 
+/* ----------Home--------------- */
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+
+  #profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+  }
+  
+
+  .section__pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px; /* Adjust the height and width as needed to create a square container */
+    width: 250px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    transform: translateX(-10px);
+}
+
+  .profile-pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .section__pic-container:hover {
+    transform: scale(1.5);
+  }
+
+  .section__text {
+    align-self: center;
+    text-align: center;
+  }
+  
+  .section__text p {
+    font-weight: 600;
+  }
+  
+  .section__text__p1 {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .section__text__p2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+
 /* -------------about------------- */
 
 #about {
